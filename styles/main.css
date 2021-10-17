@@ -1,0 +1,55 @@
+.img-box {
+    column-count: 4;
+    column-gap: 5px;
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+.image {
+    max-width: 100%;
+    display: block;
+
+}
+.image-wrapper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: blur(1px);
+}
+.image-wrapper + .image-wrapper {
+    margin: 3px 0
+}
+body{
+    background: url(http://drasler.ru/wp-content/uploads/2018/12/22163-luna-priroda-planeta-kosmicheskoe_prostranstvo-zemlya-1920x1080.jpg);
+}
+.image-wrapper:hover {
+    opacity: 1;
+    filter: hue-rotate(45deg);
+}
+.q1 {
+    filter: hue-rotate(45deg);
+}
+.q2 {
+    filter: sepia(0.6);
+}
+.q3 {
+    filter: sepia(0.9);
+}
+.q4 {
+    filter: sepia(1.2);
+}
+.q1:hover {
+    opacity: 1;
+    filter: hue-rotate(45deg);
+}
+.q2:hover {
+    filter: sepia(0.5);
+}
+.q3:hover {
+    filter: sepia(0.6);
+}
+.q4:hover {
+    filter: sepia(1.2);
+}
+
+
